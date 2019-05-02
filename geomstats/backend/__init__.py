@@ -1,7 +1,7 @@
 import os
 import sys
 
-_default_backend = 'numpy'
+_default_backend = 'tensorflow'
 if 'GEOMSTATS_BACKEND' in os.environ:
     _backend = os.environ['GEOMSTATS_BACKEND']
 
